@@ -23,19 +23,19 @@ class Database extends Config
      *
      * @var string
      */
-    public $defaultGroup = 'default';
+    public $defaultGroup = 'perpus';
 
     /**
      * The default database connection.
      *
      * @var array
      */
-    public $default = [
+    public $perpus = [
         'DSN'      => '',
         'hostname' => 'localhost',
-        'username' => '',
+        'username' => 'root',
         'password' => '',
-        'database' => '',
+        'database' => 'gudangilmu',
         'DBDriver' => 'MySQLi',
         'DBPrefix' => '',
         'pConnect' => false,
